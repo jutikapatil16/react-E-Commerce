@@ -13,26 +13,10 @@ const Wrapper = styled.div`
   justify-content:space-between;
   font-size:20px;
 `
-
 const Left = styled.div`
 flex:1;
 display: flex;
 align-items:center;
-`
-const Centre = styled.div`
-flex:1;
-display:flex;
-justify-content: center;
-`
-const Logo = styled.h1`
-font-weight: bold;
-`
-
-const Right = styled.div`
-flex:1;
-display:flex;
-justify-content: end;
-
 `
 const SearchContainer = styled.div`
 display: flex;
@@ -42,6 +26,22 @@ width:40%;
 margin:10px;
 `
   
+
+const Centre = styled.div`
+flex:1;
+display:flex;
+justify-content: center;
+`
+const Logo = styled.h1`
+font-weight: 900;
+`
+
+const Right = styled.div`
+flex:1;
+display:flex;
+justify-content: end;
+
+`
 
 const Navbar = () => {
   return (
