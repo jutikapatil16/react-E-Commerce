@@ -25,7 +25,6 @@ border: 1px solid lightgray ;
 width:40%;
 margin:10px;
 `
-  
 
 const Centre = styled.div`
 flex:1;
