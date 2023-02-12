@@ -45,7 +45,7 @@ padding:30px 0 ;`;
 const List = styled.ul`
 padding:0;
 display:flex;
-flex-wrap:wrap;
+
 list-style:none;
 
 `;
@@ -86,9 +86,9 @@ const Footer = () => {
      <Center>
     <Title>Useful links</Title>
     <List>
-    <ListItem>Home</ListItem>
+    <ListItem><a href="/">Home</a></ListItem>
     <ListItem>Cart</ListItem>
-    <ListItem>Home</ListItem>
+    <ListItem>Kid's Fashion</ListItem>
     <ListItem>Men Fashion</ListItem>
     <ListItem>Women Fashion</ListItem>
     <ListItem>Order Tracking</ListItem>

@@ -2,19 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { ShoppingCartOutlined , SearchOutlined , FavoriteBorderOutlined } from '@mui/icons-material';
 
-
-const Circle =styled.div`
-`
-
-const Image = styled.img`
-height:100%;
-width:100%;
-position:relative;
-object-fit:cover;
-z-index:2;
-
-`
-const Info = styled.div`
+const Infom = styled.div`
 
 opacity:0;
 width:100%;
@@ -29,7 +17,33 @@ align-items:center;
 background-color:rgba(0,0,0,0.2);
 
 z-index: 3;
-transition:all 0.5s ease`
+transition:all 0.5s ease;`
+
+const Container= styled.div`
+
+flex:1;
+margin:10px;
+min-width:280px;
+height:350px;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+
+&:hover ${Infom}{
+  opacity:1;
+}
+`
+const Circle =styled.div`
+`
+
+const Image = styled.img`
+height:100%;
+width:100%;
+position:relative;
+z-index:2;
+
+`
 
 //Icon
 const Icon = styled.div`
@@ -51,22 +65,7 @@ transition:all 0.5s ease ;
   transform:scale(1.1);
 }
 `
-const Container = styled.div`
 
-flex:1;
-margin:10px;
-min-width:280px;
-height:350px;
-display:flex;
-align-items:center;
-justify-content:center;
-
-&:hover ${Info}{
-
-opacity:1;
-  
-}
-`
 
 
 
@@ -75,7 +74,7 @@ const Product = ({item}) => {
     <Container>
 <Circle/>
 <Image src={item.img}/>
-<Info>
+<Infom>
 <Icon>
 <ShoppingCartOutlined/>
 </Icon>
@@ -85,8 +84,8 @@ const Product = ({item}) => {
 <Icon>
 <FavoriteBorderOutlined/>
 </Icon>
-</Info>
-    </Container>
+</Infom>
+</Container>
   )
 }
 

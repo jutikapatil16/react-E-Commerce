@@ -33,7 +33,7 @@ const Arrow = styled.div`
   right: ${(props) => props.direction === "right" && "10px"};
   margin: auto;
   cursor: pointer;
-  opacity: 50%;
+
   z-index:2;
 `;
 //WRAPPER
@@ -115,7 +115,7 @@ const Slider = () => {
         {sliderItems.map((items)=>(
           <Slide bg ={items.bg}>
         <ImgContainer>
-          <Image src="https://images.unsplash.com/photo-1589465885857-44edb59bbff2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29tYW4lMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80" />
+          <Image src={items.img} />
         </ImgContainer>
 
         <InfoContainer>
