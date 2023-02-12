@@ -10,11 +10,13 @@ const Announcements = () => {
   justify-content:center;
   font-size: 20px;
 `
-
+const Span= styled.div`
+font-weight:600
+`
 
   return (
     <Container>
-      Super deals! Jeans just at Rs. 399 💕
+      Super deals! Jeans just @ <Span> Rs. 399</Span> 
     </Container>
   )
 }

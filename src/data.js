@@ -52,16 +52,16 @@ export const products =[
   img:"https://images.unsplash.com/photo-1596755094514-f87e34085b2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"},
   {
     id:4,
-    img:""
+    img:"https://images.unsplash.com/photo-1562572159-4efc207f5aff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGFwcGFyZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60",
   },
   {id:5,
-  img:""},
+  img:"https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"},
   {
     id:6,
-    img:""
+    img:"https://images.unsplash.com/photo-1561375962-4e4db9d9afa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
   },
   {id:7,
-  img:""},
+  img:"https://images.unsplash.com/photo-1564859228273-274232fdb516?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGFwcGFyZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60"},
   {
     id:8,
     img:""
@@ -73,8 +73,7 @@ export const products =[
     id:10,
     img:""
   },
-  {id:11,
-  img:""},
+  
   
 ]
 ;

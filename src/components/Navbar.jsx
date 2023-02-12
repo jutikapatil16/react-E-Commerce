@@ -55,7 +55,7 @@ const Navbar = () => {
         </Left>
         <Centre>
           <Logo>
-          LAMA.
+          JUTS.
           </Logo>
         </Centre>
         <Right>
