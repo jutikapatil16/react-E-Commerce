@@ -72,7 +72,6 @@ transition:all 0.5s ease ;
 const Product = ({item}) => {
   return (
     <Container>
-<Circle/>
 <Image src={item.img}/>
 <Infom>
 <Icon>

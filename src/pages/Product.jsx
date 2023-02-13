@@ -132,7 +132,6 @@ const Product = () => {
 <Amount>1</Amount>
 <Add/>
 </AmountContainer>
-
 <Button>
 BUY NOW  
 </Button>
