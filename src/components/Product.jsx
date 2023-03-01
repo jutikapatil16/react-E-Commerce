@@ -76,6 +76,7 @@ const Product = ({item}) => {
 <Infom>
 <Icon>
 <ShoppingCartOutlined/>
+
 </Icon>
 <Icon>
 <SearchOutlined/>

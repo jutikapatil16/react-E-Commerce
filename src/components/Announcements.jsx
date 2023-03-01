@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Announcements = () => {
   const Container = styled.div`
-  background-color: teal;
+  background-color: #8d3456;
   color: white;
   height:30px;
   display:flex;
