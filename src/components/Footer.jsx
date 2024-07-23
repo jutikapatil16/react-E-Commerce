@@ -61,10 +61,10 @@ const Footer = () => {
     <Container>
      <Left>
       <Logo>
-        JUTS.
+        JUTE.
       </Logo>
       <Desc>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nesciunt blanditiis, nemo amet placeat inventore modi ullam voluptas atque quis dolor cumque et nulla molestiae doloremque odit, earum repudiandae. Nisi.
+      Our modern e-commerce platform is designed to offer you an unparalleled shopping experience, combining the latest trends with cutting-edge technology.From chic streetwear to elegant evening gowns, our selection caters to every occasion and taste. 
       </Desc>
       <SocialContainer>
         <SocialIcon color="3B5999">

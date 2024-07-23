@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import Products from '../components/Products'
 import Announcements from '../components/Announcements'
 import styled from "styled-components";
-
+import Footer from '../components/Footer'
 
 
 
@@ -82,6 +82,7 @@ const ProductList = () => {
 </Filter>
 </FilterContainer>
 <Products/>
+<Footer/>
     </Container>
   )
 }

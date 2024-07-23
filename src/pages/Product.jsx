@@ -4,6 +4,10 @@ import React from 'react';
 import styled from 'styled-components';
 import Announcements from '../components/Announcements';
 import Navbar from '../components/Navbar';
+import { products } from '../data';
+
+import Footer from '../components/Footer'
+
 
 const Container = styled.div`
 flex:1;
@@ -100,8 +104,9 @@ const Product = () => {
       </ImgContainer>
 
 <InfoContainer>
-        <Title>Black Tee</Title>
-        <Desc>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus distinctio similique officia facere doloremque nam saepe dolorum, praesentium itaque laborum accusantium sint voluptate perferendis dolorem mollitia porro optio cum. Sit.</Desc>
+        <Title>Classic Black T-Shirt</Title>
+        <Desc>
+Elevate your wardrobe essentials with our Classic Black T-Shirt. Crafted from premium, 100% breathable cotton, this tee offers unparalleled comfort and durability. The timeless black color provides versatility, making it a perfect match for any outfit. Designed with a modern fit, it features a crew neckline and short sleeves, ensuring a sleek and stylish look. Whether you're dressing up for a casual outing or lounging at home, this black t-shirt is a must-have staple. Available in multiple sizes, it's an ideal choice for every fashion-forward individual.</Desc>
         <Price>$ 50</Price>
 
 
@@ -139,7 +144,9 @@ BUY NOW
 
 
   </Wrapper>
+  <Footer/>
   </Container>
+ 
   )
 }
 

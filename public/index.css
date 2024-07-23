@@ -1,0 +1,21 @@
+.MenuItem{
+    text-decoration:none;
+    color: black;
+
+}
+
+.MenuItem-bg:hover{
+    background-color: rgb(255, 228, 196);
+}
+
+.shopButton{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#a{
+    color: black;
+    text-decoration: none;
+   
+}

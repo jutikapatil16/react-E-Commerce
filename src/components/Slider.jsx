@@ -5,6 +5,7 @@ import {
 import {React, useState} from "react";
 import styled from "styled-components";
 import { sliderItems } from "../data";
+import { Link } from "react-router-dom";
 //
 const Container = styled.div`
   
@@ -120,8 +121,8 @@ const Slider = () => {
         <InfoContainer>
           <Title>{items.title}</Title>
           <Desc>{items.desc}</Desc>
-          <Button>
-            SHOP NOW!
+          <Button className="MenuItem-bg">
+            <Link className="MenuItem" to="/ProductList">SHOP NOW! </Link>
           </Button>
         </InfoContainer>
         </Slide>

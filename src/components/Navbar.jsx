@@ -4,6 +4,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
+
 const Container = styled.div`
   height: 60px;
 `
@@ -49,22 +50,26 @@ const Navbar = () => {
         <Left>
         EN 
         <SearchContainer>
-          <Input></Input>
+          <Input id="search"></Input>
           <Search/>
         </SearchContainer>
         </Left>
         <Centre>
           <Logo>
-          JUTS.
+          JUTE.
           </Logo>
         </Centre>
         <Right>
-        <MenuItem >
-        <Link to="/ProductList">Product List</Link>
+
+
+        <MenuItem className="MenuItem-bg" >
+        <Link className="MenuItem" to="/">Home</Link>
         </MenuItem>
-        <MenuItem >
-        <Link to="/Product">Product</Link>
+
+        <MenuItem className="MenuItem-bg" >
+        <Link className="MenuItem"  to="/ProductList">Product List</Link>
         </MenuItem>
+        
         <MenuItem >
          <Badge badgeContent={4} color="primary">
           <ShoppingCartOutlined/>

@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import { ShoppingCartOutlined , SearchOutlined , FavoriteBorderOutlined } from '@mui/icons-material';
+import { Link, redirect } from 'react-router-dom';
+
 
 const Infom = styled.div`
 
@@ -63,10 +65,9 @@ transition:all 0.5s ease ;
 &:hover{
   background-color: #ffffff;
   transform:scale(1.1);
+  opacity:70%;
 }
 `
-
-
 
 
 const Product = ({item}) => {
@@ -75,11 +76,18 @@ const Product = ({item}) => {
 <Image src={item.img}/>
 <Infom>
 <Icon>
-<ShoppingCartOutlined/>
+  <button className='shopButton' >
+    <Link  to="/Product">
+    <ShoppingCartOutlined/>
+    </Link>
+  
+  </button>
+
 
 </Icon>
 <Icon>
-<SearchOutlined/>
+
+<SearchOutlined />
 </Icon>
 <Icon>
 <FavoriteBorderOutlined/>
